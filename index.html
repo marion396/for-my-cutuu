@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!-- =========================
+     PASSWORD SCREEN
+========================= -->
+
+<div id="passwordScreen" class="password-screen">
+
+  <div class="password-stickers">
+    <span class="sticker s1">🎀</span>
+    <span class="sticker s2">💗</span>
+    <span class="sticker s3">⭐</span>
+    <span class="sticker s4">🌷</span>
+    <span class="sticker s5">🧸</span>
+    <span class="sticker s6">💌</span>
+    <span class="sticker s7">💖</span>
+    <span class="sticker s8">✨</span>
+  </div>
+
+  <div class="password-card">
+
+    <div class="tape tape-left"></div>
+    <div class="tape tape-right"></div>
+
+    <p class="tiny-note">HMMM....SUMTHNGG SPECIALL FOR SOMEONEE SPECIALL HUHH🌝</p>
+
+    <h1>OPEN😋🫶🏻 🎀</h1>
+
+    <p class="password-text">
+      PASSWORDDD😈😈
+    </p>
+
+    <input
+      type="password"
+      id="passwordInput"
+      placeholder="password..."
+    >
+
+    <button onclick="checkPassword()">
+      unlock HEHEHEHEHE 😋
+    </button>
+
+    <p id="wrongPassword"></p>
+
+  </div>
+</div>
+
+
+
+<!-- =========================
+     MAIN WEBSITE
+========================= -->
+
+<div id="mainWebsite" class="hidden">
+
+  <!-- FLOATING BACKGROUND STICKERS -->
+
+  <div class="floating-stickers">
+
+    <span class="float f1">🎀</span>
+    <span class="float f2">⭐</span>
+    <span class="float f3">💗</span>
+    <span class="float f4">🧸</span>
+    <span class="float f5">🍓</span>
+    <span class="float f6">🌷</span>
+    <span class="float f7">✨</span>
+    <span class="float f8">💌</span>
+    <span class="float f9">☁️</span>
+    <span class="float f10">💞</span>
+
+  </div>
+
+
+
+  <!-- =========================
+       HERO / SCRAPBOOK COVER
+  ========================= -->
+
+  <section class="hero scrapbook-page">
+
+    <div class="mini-sticker top-left">🎀</div>
+    <div class="mini-sticker top-right">🧸</div>
+
+    <div class="scribble">♡ ♡ ♡</div>
+
+    <p class="little-label">
+      FORR MYY CUTUUU LOVEEE😋💖
+    </p>
+
+    <h1 class="main-title">
+      HAPPY
+      <span>BOYFRIEND'S</span>
+      DAY ♡
+    </h1>
+
+    <p class="hero-subtitle">
+      to my all time favourite  🎀
+    </p>
+
+    <div class="doodle-row">
+      ✦ ♡ ✦ 🎀 ✦ ♡ ✦
+    </div>
+
+    <div class="paper-note intro-note">
+
+      <div class="tape small-tape"></div>
+
+      <p>
+        Madee sumthngg for u..coz WHYY NOTT😋💖..vese to i wish we were together..but ok ldr😭😭😭..NVM all in all i just want u to smilee bss😋💖🧿
+      </p>
+
+    </div>
+
+    <a href="#letters" class="scroll-button">
+      enter the scrapbook ↓
+    </a>
+
+  </section>
+
+
+
+  <!-- =========================
+       LITTLE SCRAPBOOK MESSAGE
+  ========================= -->
+
+  <section class="scrapbook-page">
+
+    <div class="section-title-wrap">
+      <span>🌷</span>
+      <h2>QUICK NOTE BEFORE U CONTINUEEE😋</h2>
+      <span>🌷</span>
+    </div>
+
+    <div class="big-paper-note">
+
+      <div class="tape tape-top"></div>
+
+      <p class="editable-text">
+
+I just feelll soo soo luckyy kii u r with mee 😋🫶🏻🧿...i never though i would find someone like u..sumone who genun. care about me..
+*touch wood* 😭🧿💖...Bss aese hi mere sath rahiyo and happiee bhii (this is more importantt😋💖)
+      </p>
+
+      <span class="corner-doodle">♡</span>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+       FLIP LETTER SECTION
+  ========================= -->
+
+  <section id="letters" class="scrapbook-page letters-section">
+
+    <div class="section-title-wrap">
+
+      <span>💌</span>
+
+      <h2>MOST RANDOM LETTERS FOR U😋</h2>
+
+      <span>💌</span>
+
+    </div>
+
+    <p class="section-subtitle">
+      YUPP U HAVEE TO READD EVERY SINGLEE ONEEEEE😋😗🫶🏻
+    </p>
+
+
+
+    <div class="flip-grid">
+
+
+      <!-- LETTER 1 -->
+
+      <div class="flip-card" onclick="flipCard(this)">
+
+        <div class="flip-card-inner">
+
+          <div class="flip-card-front pink-paper">
+
+            <span class="letter-sticker">🎀</span>
+
+            <h3>flip me ♡</h3>
+
+            <p>letter no. 01</p>
+
+            <span class="tiny-heart">♡</span>
+
+          </div>
+
+          <div class="flip-card-back">
+
+            <h3>for you 💗</h3>
+
+            <p>
+             Sbsee phlee tooo I RLLY RLLYY LOVEE U SOOMUCHHH😭💖
+              NO IDEAA IF U FELT OR NOT..BUT I DO TRY KI U DOO FEEL KI HOW MUCH I DOO 🫶🏻😋 
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- LETTER 2 -->
+
+      <div class="flip-card tilted-left" onclick="flipCard(this)">
+
+        <div class="flip-card-inner">
+
+          <div class="flip-card-front yellow-paper">
+
+            <span class="letter-sticker">🌷</span>
+
+            <h3>open meeee</h3>
+
+            <p>letter no. 02</p>
+
+          </div>
+
+          <div class="flip-card-back">
+
+            <h3>😋💖</h3>
+
+            <p>
+              Andd haa just stayy happiee .. with or... ACTUALYY UK WHT U STUCKED WITH ME SMJHAA NA SO YESSS 😡😡
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- LETTER 3 -->
+
+      <div class="flip-card tilted-right" onclick="flipCard(this)">
+
+        <div class="flip-card-inner">
+
+          <div class="flip-card-front blue-paper">
+
+            <span class="letter-sticker">🧸</span>
+
+            <h3>HEHEHEHEHEHE ONEE MOREE🌝</h3>
+
+            <p>letter no. 03</p>
+
+          </div>
+
+          <div class="flip-card-back">
+
+            <h3>important!!!</h3>
+
+            <p>
+TBH i dont need a day..to make u feel speciall....mere liye u willl foreverr be the speciall one btww 😋🧿            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- LETTER 4 -->
+
+      <div class="flip-card" onclick="flipCard(this)">
+
+        <div class="flip-card-inner">
+
+          <div class="flip-card-front purple-paper">
+
+            <span class="letter-sticker">⭐</span>
+
+            <h3>read me :3</h3>
+
+            <p>letter no. 04</p>
+
+          </div>
+
+          <div class="flip-card-back">
+
+            <h3>another one...</h3>
+
+            <p>
+    AND dontt u worry about the distancee..Ik vo to hogi hii [ me hi krti hu and me hi bolrhi okie finee😭] but still touchhwoodss sb acha hoga😋🫶🏻🧿       </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- LETTER 5 -->
+
+      <div class="flip-card tilted-left" onclick="flipCard(this)">
+
+        <div class="flip-card-inner">
+
+          <div class="flip-card-front green-paper">
+
+            <span class="letter-sticker">💖</span>
+
+            <h3>FLIP FLIP FLIP</h3>
+
+            <p>letter no. 05</p>
+
+          </div>
+
+          <div class="flip-card-back">
+
+            <h3>ILOVEUSOMUCHH</h3>
+
+            <p>
+              Idk tbh aage kya hoga kya nhi...I just know ki if u are with me things will be finee..😋💖  
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- LETTER 6 -->
+
+      <div class="flip-card tilted-right" onclick="flipCard(this)">
+
+        <div class="flip-card-inner">
+
+          <div class="flip-card-front orange-paper">
+
+            <span class="letter-sticker">💞</span>
+
+            <h3>okay one more</h3>
+
+            <p>letter no. 06</p>
+
+          </div>
+
+          <div class="flip-card-back">
+
+            <h3>for my lovee😋</h3>
+
+            <p>
+              And just so uk..U r and will forever be and stay my one and only favouritee onee 😋💖🧿
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+       THINGS I LOVE ABOUT YOU
+  ========================= -->
+
+  <section class="scrapbook-page love-section">
+
+    <div class="section-title-wrap">
+
+      <span>💗</span>
+
+      <h2>TYSMM MY LOVEE FORR😋💖</h2>
+
+      <span>💗</span>
+
+    </div>
+
+
+    <div class="sticky-wall">
+
+
+      <div class="sticky sticky-one">
+
+        <span>01</span>
+
+        <p>
+          FOR ALWAYSS STAYING WITH ME...😭💖🧿 AND HOPE WE ALWAYS STAY TOGETHER FOREVER TOUCHWOODDSS😭💖
+        </p>
+
+      </div>
+
+
+      <div class="sticky sticky-two">
+
+        <span>02</span>
+
+        <p>
+          FOR ALWAYS MAKING ME SMILE..EVN THO I DIDN'T WANT TO 😭😭....LIKE SRSLYYY WHENEVER I WAS OR ABHI BHI I AM SAD...I JUST KNOW KI SAM SE BAAT KRLETI HU SBB THIK HOJAYE GAA🥹💖🧿 IK I AM THE LUCKIESTTT ALIVEE HEHEHE TOUCHWOODD😭💖🧿
+        </p>
+
+      </div>
+
+
+      <div class="sticky sticky-three">
+
+        <span>03</span>
+
+        <p>
+         FOR NOT GIVINGG UP ON ME..IK SUMTIMES I ACT WIERD..BUT U STILL HANDLEE MY EVERYY MOOD EVRY USELESS ATTITUDEE...😭💖🧿 IDK HOW BUT U DO...YRRR ILOVEEUUSOOMUCHHHH YKK😭💖
+        </p>
+
+      </div>
+
+
+      <div class="sticky sticky-four">
+
+        <span>04</span>
+
+        <p>
+FORR STAYINGG GENTAL WITH MEE..😭💖 I ALWAYS THOUGHT KI '' NHI SAM BHI CHANGE HOJAYE GAA U WILL ALSO LEAVE ME .. YAA TU GUSSA NA HOJAYEE MERSE KABHI '' AND U DIDNTT 😭💖🥹🧿        </p>
+
+      </div>
+
+
+      <div class="sticky sticky-five">
+
+        <span>05</span>
+
+        <p>
+FOR PROVINGG ME WRONGG..KII NO ONE CAN STAY WITH ME..I ALWAYS THOUGHT..STAYING WITH ME IS MAYBE DIFFICULTT..😭TYSM MERKO GLT PROOF KRNE KE LIYE...TRUST ME WHN U WILL MEET ME IN PERSON U WILL REALISE HOWWW MUCH I LOVEE U HOW MUCH I CARE FOR U...COZ I DO ALOTT😭💖😋🧿        </p>
+
+      </div>
+
+
+      <div class="sticky sticky-six">
+
+        <span>06</span>
+
+        <p>
+ALL IN ALL TYY HRR CHIZZ KE LIYEE..VOO HR EFFORT..HRR REEL..HRR TEXT HRR CALL..HRR PIC..HRR MORNING VIDEO..EVERY SINGLE THINGG..JO BHI TUNE KRII MERE LIYEE SBB KUCHH ISS TOO MUCHH IN MY EYESS🥹💖🧿... LASTT TKK I WILL NEVER FORGETT TERA HRR EFFORTTT NVMM ILL CRY YRR😭😭💖💖OKIE IIILOVEEUUSOOMUCHHHHH SAMMMM  😭💖🧿     </p>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+ 
+
+
+
+  <!-- =========================
+       RANDOM THOUGHTS SECTION
+  ========================= -->
+
+  <section class="scrapbook-page">
+
+    <div class="section-title-wrap">
+
+      <span>💭</span>
+
+      <h2>Thingss i alwayss wanted to tell u [in person btw]</h2>
+
+      <span>😋😳</span>
+
+    </div>
+
+
+    <div class="random-notes">
+
+
+      <div class="random-note rn1">
+
+        Fromm day 1 i met u..i never though tu mere liye itnaa speciall hoajayee gaaa😭🫶🏻
+
+      </div>
+
+
+      <div class="random-note rn2">
+I was alwayss scaredd to confess..i thought..things will mess up and i will end up lossing u loll😭😭
+
+      </div>
+
+
+      <div class="random-note rn3">
+
+Maybe i like u bhot phle hii..but i always told myself..ki u will change or i dont rlly love u 
+      </div>
+
+
+      <div class="random-note rn4">
+
+BUT LOLLL I ACTUALLYY LOVEED U SOMUCHH HEHEHEHE AND STILL DUHHH 😭😋💖🧿
+      </div>
+
+
+      <div class="random-note rn5">
+
+Bhott logo ne meko bola ldr won't work wut if ye vo blah blahh but who cares..abb to i trustt u toomuchhh 😋💖🧿 but tu jldi se aaja yaha taki i can prove sum ppl wrongg
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+       FINAL LETTER
+  ========================= -->
+
+  <section class="scrapbook-page final-section">
+
+    <div class="final-paper">
+
+      <div class="tape final-tape"></div>
+
+      <span class="final-sticker sticker-a">🎀</span>
+      <span class="final-sticker sticker-b">💗</span>
+      <span class="final-sticker sticker-c">⭐</span>
+
+      <p class="tiny-note">
+(SOO 1st OF ALL TOO I DON'T NEED A DAY TO MAKE MY LOVE [ U DUHH] FEEL SPECIALL RIGHT HEHEHEHE)     </p>
+
+      <h2>to my cutuuboyfriend 💖😋</h2>
+
+      <p class="final-message">
+I RLLYY RLYY WISHHH U SMILEDD COZ THAT'S MY MAIN MOTIVEE DUHHH😋💖
+ schi btauu yr too from day 1 jab se me tese milii tabb se sbb acha hi horha touchwood...and agr kuch not so gud hua bhi..i just knew sam hae mere sath so i be alrightt 😭😭💖🧿      
+Tere sath sbb acha lgtaa and i rlyy rlyy wishh terko bhi mere sath comfortablee fel hota ho..ki agr terko kuch share krna hoo...tu soche na ki me judge krungi ya me nhi sungii dw i will alwayss 😋💖
+        Yk jab bhi life ka worst stage aaya..sbse merko usuallyy chod diya tha ya ghost lol...but fir jab same chizz huii whn u were with me..i thought maybe u will also leave me or idk..U DIDNTT 😭😭😭🥹🥹💖💖🧿🧿 trustt mee i dont know when but jab se i fell for u..MY LOVE FOR U JUST KEPT GROWINGG 💖 and it will alwayss 🫶🏻🧿..
+        Bss tu bhi aese hii happie rahiyo and mere sath hi rahiyoo bss touchhwoodd 💖😭🧿
+       AND HAA I LOVEEYOUUSOOSOOANDD SOO MUCHH MOREE THAN WORDS CAN DESCRIBEEE 😋💖🧿 [and i'll alwayss will🫶🏻🫶🏻🧿]
+      </p>
+
+      <p class="signature">
+        MADEE WITH BHOT SARA LOVE HEHEHEHEHEHE😋💖
+      </p>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+
+    <div>🎀 ♡ 🌷 ♡ 🧸 ♡ ⭐</div>
+
+    <p>
+      FORR MY CUTUUU [sammm😋💖] , by her fav girll {I BETTER BEE SMJHA NAA😡😋💖}
+    </p>
+
+  </footer>
+
+
+</div>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
